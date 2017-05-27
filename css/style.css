@@ -36,9 +36,11 @@ img{
 
 
 /*wylaczanie floatingu dziala dla p ktore jest trzecim dzieckiem czyli w tym przypadku drugie pe*/
+/*
 p:nth-child(3){
     clear: both;
 }
+*/
 
 #kotek {
     height: 100px;
@@ -112,4 +114,18 @@ p:nth-child(3){
     background: url(image.png) center no-repeat fixed;
     background-size: cover;
     
+}
+
+
+#overflow p{
+    width: 25%;
+    float: left;
+}
+
+#overflow p:nth-child(even){
+    background-color: antiquewhite;
+}
+
+#overflow p:nth-child(odd){
+    background-color: cyan;
 }
