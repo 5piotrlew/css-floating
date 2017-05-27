@@ -40,5 +40,21 @@ p:nth-child(3){
     clear: both;
 }
 
+#kotek {
+    height: 100px;
+    width: 100px;
+    float: none;
+    margin-bottom: 360px;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+    
+}
 
-
+#kotek:hover{
+    height: 200px;
+    width: 200px;
+    
+}
