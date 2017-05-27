@@ -2,6 +2,8 @@ p{
     display: inline;
     font-size: 2em;
     color: #fff;
+    width: 600px;
+    margin-top: 40px;
 }
 
 p:nth-child(odd){
@@ -9,4 +11,18 @@ p:nth-child(odd){
 }
 p:nth-child(even){
  background-color: orange;   
+}
+
+p:nth-child(1n+3){
+    display: block;
+}
+
+a{  display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    font-size: 1.2em;
+    margin: 5px;
+    text-align: center;
+    line-height: 200px; /* wysrodkowuje tekst pionowo */
 }
