@@ -89,9 +89,19 @@ p:nth-child(3){
 #box3{
      background-color: blue;
     transition: width 5s linear 0.5s, height 2s linear 0.5s;
+    
 }
 
 #box3:hover{
     height: 300px;
     width: 300px;
+   
+}
+
+#background{
+    height: 50vh; /* 50 procent wysokosci okna przegldarki */
+    background-color: aquamarine;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
