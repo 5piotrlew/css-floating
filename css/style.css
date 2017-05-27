@@ -120,12 +120,27 @@ p:nth-child(3){
 #overflow p{
     width: 25%;
     float: left;
+    height: 50px;
 }
 
 #overflow p:nth-child(even){
     background-color: antiquewhite;
 }
 
-#overflow p:nth-child(odd){
+#overflow p:nth-child(2){
     background-color: cyan;
+    overflow: scroll;
+    
+}
+
+#overflow p:nth-child(3){
+    background-color: cyan;
+    overflow: hidden;
+    
+}
+
+#overflow p:nth-child(4){
+    background-color: cyan;
+    overflow: auto;
+    
 }
