@@ -103,5 +103,8 @@ p:nth-child(3){
     background-color: aquamarine;
     background-image: url(image.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
