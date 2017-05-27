@@ -1,3 +1,4 @@
+/*
 p{
     display: inline;
     font-size: 2em;
@@ -16,6 +17,7 @@ p:nth-child(even){
 p:nth-child(1n+3){
     display: block;
 }
+*/
 
 a{  display: inline-block;
     width: 200px;
@@ -24,5 +26,19 @@ a{  display: inline-block;
     font-size: 1.2em;
     margin: 5px;
     text-align: center;
-    line-height: 200px; /* wysrodkowuje tekst pionowo (trik) */
+    line-height: 200px; /* wysrodkowuje tekst pionowo (trik) */    
 }
+
+img{
+    float: right;
+}
+
+
+
+/*wylaczanie floatingu dziala dla p ktore jest trzecim dzieckiem czyli w tym przypadku drugie pe*/
+p:nth-child(3){
+    clear: both;
+}
+
+
+
