@@ -52,8 +52,8 @@ p:nth-child(3){
     transition-timing-function: linear;
     transition-delay: 0.5s;
 */
-    transition: all .8s ease 1s; /* pierwsze dwie wartosci sa obowiazkowe */
-    
+/*    transition: all .8s ease 1s;  pierwsze dwie wartosci sa obowiazkowe */
+    transition: width 5s linear 0.5s, height 2s linear 0.5s;
 }
 
 #kotek:hover{
