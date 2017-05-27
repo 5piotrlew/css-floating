@@ -61,3 +61,37 @@ p:nth-child(3){
     width: 200px;
     
 }
+
+#box1, #box2, #box3{
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    
+    
+}
+
+#box1{
+     background-color: red;
+    transition: width 5s linear 0.5s;}
+    
+#box1:hover{
+    width: 300px;
+}    
+
+#box2{
+     background-color: green;
+    transition: height 5s linear 0.5s;}
+
+#box2:hover{
+    height: 300px;
+}
+
+#box3{
+     background-color: blue;
+    transition: width 5s linear 0.5s, height 2s linear 0.5s;
+}
+
+#box3:hover{
+    height: 300px;
+    width: 300px;
+}
